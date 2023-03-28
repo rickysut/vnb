@@ -1,7 +1,7 @@
 <aside class="page-sidebar">
     <div class="page-logo">
 		<a href="/dashboard" class="page-logo-link press-scale-down d-flex align-items-center position-relative">
-			{{-- <img src="{{ asset('img/favicon.png') }}" alt="VNB" aria-roledescription="logo"> --}}
+			<img src="{{ asset('img/favicon.png') }}" alt="VNB" aria-roledescription="logo" style="width: 65px">
 			<span class="page-logo-text">Viral Niaga Berjaya</span>
 		</a>
 

@@ -30,7 +30,7 @@
 	<link id="myskin" rel="stylesheet" media="screen, print" href="{{ asset('css/smartadmin/skins/skin-master.css') }}">
 	<link id="appbundle" rel="stylesheet" media="screen, print" href="{{ asset('css/smartadmin/app.bundle.css') }}">
 	<link rel="stylesheet" media="screen, print" href="{{asset('css/smartadmin/page-login.css')}}">
-	<link id="mytheme" rel="stylesheet" media="screen, print" href="#">
+	<link id="mytheme" rel="stylesheet" media="screen, print" href="{{asset('css/smartadmin/themes/cust-theme-5.css')}}">
 
 	<!-- Place favicon.ico in the root directory -->
 	<link href="{{ asset('css/fontawesome.min.css') }}" rel="stylesheet">
@@ -62,7 +62,7 @@
 					<div class="d-flex align-items-center container p-0">
 						<div class="page-logo width-mobile-auto m-0 align-items-center justify-content-center p-0 bg-transparent bg-img-none shadow-0 height-9 border-0">
 							<a href="javascript:void(0)" class="page-logo-link press-scale-down d-flex align-items-center">
-								{{-- <img src="img/logo.png" alt="SmartCompany WebApp" aria-roledescription="logo"> --}}
+								<img src="img/favicon.png" alt="SmartCompany WebApp" aria-roledescription="logo" style="width: 65px">
 								<span class="page-logo-text mr-1">Viral Niaga Berjaya</span>
 							</a>
 						</div>

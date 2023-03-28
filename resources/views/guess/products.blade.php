@@ -12,10 +12,12 @@
 		<link rel="stylesheet" href="{{ asset('guess/css/app.min.css') }}">
 		<link rel="stylesheet" href="{{ asset('guess/css/vendor.min.css') }}">
 
-		<link rel="stylesheet" media="screen, print" href="{{ asset('css/font/fa-light.css') }}">
-        <link rel="stylesheet" media="screen, print" href="{{ asset('css/font/fa-regular.css') }}">
-        <link rel="stylesheet" media="screen, print" href="{{ asset('css/font/fa-solid.css') }}">
-        <link rel="stylesheet" media="screen, print" href="{{ asset('css/font/fa-brands.css') }}">
+		<link rel="icon" href="{{ asset('img/favicon.png') }}">
+
+		<link rel="stylesheet" media="screen, print" href="{{ asset('css/fonts/fa-light.css') }}">
+		<link rel="stylesheet" media="screen, print" href="{{ asset('css/fonts/fa-regular.css') }}">
+		<link rel="stylesheet" media="screen, print" href="{{ asset('css/fonts/fa-solid.css') }}">
+		<link rel="stylesheet" media="screen, print" href="{{ asset('css/fonts/fa-brands.css') }}">
 
 	</head>
 	<body class="pace-done ">
@@ -34,8 +36,8 @@
 			@include('partials.corporate.headernav')
 			<!-- hero section-->
 			<div class="section py-5">
-				<div class="section-bg" style="background-image: url('{{ asset('storage/img/images/img-27.jpg') }}');"></div>
-				<div class="section-bg bg-gray-800 opacity-50"></div>
+				<div class="section-bg" style="background-image: url('');"></div>
+				<div class="section-bg bg-success-500"></div>
 				<div class="container position-relative text-white text-center">
 					<div class="display-6 fw-bolder">Katalog Produk</div>
 				</div>
@@ -45,7 +47,7 @@
 					<div class="card-group d-flex flex-wrap">
 						@foreach ($ourproducts as $product)
 							<div class="col-lg-3 p-3 d-flex">
-								<div class="news rounded-3 overflow-hidden mb-5 mb-lg-0 d-flex flex-column  shadow-lg">
+								<div class="news rounded-3 overflow-hidden mb-5 mb-lg-0 d-flex flex-column shadow-lg  flex-fill">
 									<div class="news-media mb-0">
 										<div class="news-media-img"
 											style="background: url('{{ $product->product_mime ? asset('storage/img/product_img/' . $product->product_mime) : asset('storage/img/post_img/default.jpg') }}')
@@ -53,11 +55,6 @@
 										</div>
 									</div>
 									<div class="news-content px-4 py-4 bg-white flex-grow-1">
-										<div class="news-label">
-											<span class="bg-teal-200 text-teal-800">
-												{{$product->tags}}
-											</span>
-										</div>
 										<div class="news-title">
 											{{$product->product_name}}
 										</div>

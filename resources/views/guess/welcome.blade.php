@@ -12,25 +12,26 @@
 		<link rel="stylesheet" href="{{ asset('guess/css/app.min.css') }}">
 		<link rel="stylesheet" href="{{ asset('guess/css/vendor.min.css') }}">
 
+		<link rel="icon" href="{{ asset('img/favicon.png') }}">
+
 		<link rel="stylesheet" media="screen, print" href="{{ asset('css/fonts/fa-light.css') }}">
 		<link rel="stylesheet" media="screen, print" href="{{ asset('css/fonts/fa-regular.css') }}">
 		<link rel="stylesheet" media="screen, print" href="{{ asset('css/fonts/fa-solid.css') }}">
 		<link rel="stylesheet" media="screen, print" href="{{ asset('css/fonts/fa-brands.css') }}">
 		<style>
 			.row-eq-height {
-  display: flex;
-  flex-wrap: wrap;
-}
+			display: flex;
+			flex-wrap: wrap;
+			}
 
-.row-eq-height > [class*='col-'] {
-  display: flex;
-  flex-direction: column;
-}
+			.row-eq-height > [class*='col-'] {
+			display: flex;
+			flex-direction: column;
+			}
 
-.row-eq-height > [class*='col-'] > .container {
-  flex: 1;
-}
-
+			.row-eq-height > [class*='col-'] > .container {
+			flex: 1;
+			}
 		</style>
 	</head>
 	<body class="pace-done ">

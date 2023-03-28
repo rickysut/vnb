@@ -12,6 +12,8 @@
 		<link rel="stylesheet" href="{{ asset('guess/css/app.min.css') }}">
 		<link rel="stylesheet" href="{{ asset('guess/css/vendor.min.css') }}">
 
+		<link rel="icon" href="{{ asset('img/favicon.png') }}">
+
 		<link rel="stylesheet" media="screen, print" href="{{ asset('css/smartadmin/fa-light.css') }}">
 		<link rel="stylesheet" media="screen, print" href="{{ asset('css/smartadmin/fa-regular.css') }}">
 		<link rel="stylesheet" media="screen, print" href="{{ asset('css/smartadmin/fa-solid.css') }}">

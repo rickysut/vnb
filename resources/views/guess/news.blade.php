@@ -12,6 +12,8 @@
 		<link rel="stylesheet" href="{{ asset('guess/css/app.min.css') }}">
 		<link rel="stylesheet" href="{{ asset('guess/css/vendor.min.css') }}">
 
+		<link rel="icon" href="{{ asset('img/favicon.png') }}">
+
 		<link rel="stylesheet" media="screen, print" href="{{ asset('css/smartadmin/fa-light.css') }}">
 		<link rel="stylesheet" media="screen, print" href="{{ asset('css/smartadmin/fa-regular.css') }}">
 		<link rel="stylesheet" media="screen, print" href="{{ asset('css/smartadmin/fa-solid.css') }}">
@@ -93,7 +95,7 @@
 			<!-- hero section-->
 			<div class="section py-5">
 				<div class="section-bg" style="background-image: url('{{ asset('storage/img/images/img-14.jpg') }}');"></div>
-				<div class="section-bg bg-gray-800 opacity-50"></div>
+				<div class="section-bg bg-success-500"></div>
 				<div class="container position-relative text-white text-center">
 					<div class="display-6 fw-bolder">Newsroom</div>
 				</div>
