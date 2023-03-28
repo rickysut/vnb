@@ -42,6 +42,14 @@ Route::get('/contact', function () {
 	return view('guess.contact');
 })->name('contact');
 
+Route::get('/sample', function () {
+	return view('guess.sample');
+})->name('sample');
+
+Route::get('/home', function () {
+	return view('guess.home');
+})->name('home');
+
 Route::middleware(['auth', 'verified'])->group(function () {
 	// Route::get('/dashboard', function () {
 	// 	return view('dashboard');

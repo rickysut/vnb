@@ -80,7 +80,7 @@
 									<img class="d-block mw-100"
 										src="{{ url('storage/img/post_img/'.$post->mime)}}" alt="">
 								</div>
-								<div class="text-center mt-2 mb-3"><i>Image from: unsplash.com </i></div>
+								{{-- <div class="text-center mt-2 mb-3"><i>Image from: unsplash.com </i></div> --}}
 								<p> {!!$post->post_content!!} </p>
 							</div>
 						</div>

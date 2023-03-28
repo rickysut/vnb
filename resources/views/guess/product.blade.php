@@ -34,7 +34,7 @@
 			@include('partials.corporate.headernav')
 			<!-- hero section-->
 			<div class="section py-5 mb-5">
-				<div class="section-bg" style="background-image: url('{{ asset('storage/img/product_img/'. $product->product_mime) }}');"></div>
+				<div class="section-bg" style="background-image: url('');"></div>
 				<div class="section-bg bg-gray-800 opacity-50"></div>
 				<div class="container position-relative text-white text-center">
 					<div class="display-6 fw-bolder">{{$product->product_name}}</div>

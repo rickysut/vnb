@@ -49,7 +49,7 @@
                             <div class="panel-content">
                                 <input type="text" name="product_short" id="product_short"
                                     class="form-control custom-form-control"
-                                    placeholder="product_short" aria-describedby="product_short">
+                                    placeholder="product_short" aria-describedby="product_short" required>
 								<small id="helptitle" class="text-muted">Beri deskripsi singkat untuk produk ini.</small>
                             </div>
                         </div>

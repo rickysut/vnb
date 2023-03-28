@@ -17,3 +17,5 @@ yarn-error.log
 /.fleet
 /.idea
 /.vscode
+resources/views/guess/home.blade.php
+resources/views/guess/sample.blade.php

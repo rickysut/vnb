@@ -50,7 +50,7 @@
                                 <input type="text" name="product_short" id="product_short"
                                     class="form-control custom-form-control"
                                     placeholder="product_short" value="{{ old('product_short', $product->product_short) }}"
-                                    aria-describedby="product_short">
+                                    aria-describedby="product_short" required>
                             </div>
                         </div>
                     </div>

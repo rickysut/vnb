@@ -42,9 +42,9 @@
 							</a>
 						</div>
 					</div>
-					<div class="panel-container collapse">
+					<div class="panel-container show">
 						<div class="panel-content">
-							<textarea class="form-control" placeholder="type exerpt here" id="post_exerpt" name="post_exerpt" rows="2"></textarea>
+							<textarea class="form-control" placeholder="type exerpt here" id="post_exerpt" name="post_exerpt" rows="2" required></textarea>
 						</div>
 					</div>
 				</div>

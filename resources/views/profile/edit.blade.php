@@ -17,6 +17,7 @@
 		<div class="panel" id="panel-2">
 			<div class="panel-container show">
 				<div class="panel-content">
+					abc
 					@include('profile.partials.update-password-form')
 				</div>
 			</div>
